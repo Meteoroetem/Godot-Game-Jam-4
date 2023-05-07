@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://dfcik6o1kr3et"]
+
+[ext_resource type="Texture2D" uid="uid://dwdg7ai5jefn" path="res://Assets/Sprites/RedArrowOff.svg" id="1_frupc"]
+[ext_resource type="Texture2D" uid="uid://d0ahe287gdn6a" path="res://Assets/Sprites/BlueArrowOff.svg" id="2_gwvbu"]
+[ext_resource type="Texture2D" uid="uid://bo8utk44krb03" path="res://Assets/Sprites/PurpleArrowOff.svg" id="3_8dhlc"]
+[ext_resource type="Texture2D" uid="uid://db1gr7bq7idd" path="res://Assets/Sprites/GreenArrowOff.svg" id="4_x0i38"]
+
+[node name="Main" type="Node2D"]
+
+[node name="RightArrow" type="Sprite2D" parent="."]
+position = Vector2(850, 449)
+scale = Vector2(0.577419, 0.577419)
+texture = ExtResource("1_frupc")
+
+[node name="LeftArrow" type="Sprite2D" parent="."]
+position = Vector2(296, 453)
+scale = Vector2(0.577419, 0.577419)
+texture = ExtResource("2_gwvbu")
+
+[node name="UpArrow" type="Sprite2D" parent="."]
+position = Vector2(586, 346)
+scale = Vector2(0.577419, 0.577419)
+texture = ExtResource("3_8dhlc")
+
+[node name="DownArrow" type="Sprite2D" parent="."]
+position = Vector2(586, 548)
+scale = Vector2(0.577419, 0.577419)
+texture = ExtResource("4_x0i38")
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+size_flags_horizontal = 3
