@@ -1,0 +1,48 @@
+[gd_scene load_steps=10 format=3 uid="uid://bgnocri3o28fn"]
+
+[ext_resource type="Script" path="res://Assets/Scripts/ArrowKeys.cs" id="1_5edff"]
+[ext_resource type="Texture2D" uid="uid://bo8utk44krb03" path="res://Assets/Sprites/PurpleArrowOff.svg" id="2_q362m"]
+[ext_resource type="Texture2D" uid="uid://dcwpv6a027sdm" path="res://Assets/Sprites/PurpleArrowOn.svg" id="3_llgx0"]
+[ext_resource type="Texture2D" uid="uid://dwdg7ai5jefn" path="res://Assets/Sprites/RedArrowOff.svg" id="4_gpq38"]
+[ext_resource type="Texture2D" uid="uid://bky867gmce608" path="res://Assets/Sprites/RedArrowOn.svg" id="5_7j8a4"]
+[ext_resource type="Texture2D" uid="uid://db1gr7bq7idd" path="res://Assets/Sprites/GreenArrowOff.svg" id="6_6yil7"]
+[ext_resource type="Texture2D" uid="uid://ddee0bbyk237g" path="res://Assets/Sprites/GreenArrowOn.svg" id="7_7khmh"]
+[ext_resource type="Texture2D" uid="uid://d0ahe287gdn6a" path="res://Assets/Sprites/BlueArrowOff.svg" id="8_gvvb6"]
+[ext_resource type="Texture2D" uid="uid://dooicisdlepkx" path="res://Assets/Sprites/BlueArrowOn.svg" id="9_5kjk3"]
+
+[node name="ArrowKeys" type="AspectRatioContainer"]
+offset_right = 2621.0
+offset_bottom = 1440.0
+scale = Vector2(0.5, 0.5)
+ratio = 1.7778
+script = ExtResource("1_5edff")
+upArrowSprites = Array[Texture2D]([ExtResource("2_q362m"), ExtResource("3_llgx0")])
+rightArrowSprites = Array[Texture2D]([ExtResource("4_gpq38"), ExtResource("5_7j8a4")])
+downArrowSprites = Array[Texture2D]([ExtResource("6_6yil7"), ExtResource("7_7khmh")])
+leftArrowSprites = Array[Texture2D]([ExtResource("8_gvvb6"), ExtResource("9_5kjk3")])
+metadata/_edit_group_ = true
+
+[node name="UpArrow" type="TextureRect" parent="."]
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 0
+texture = ExtResource("2_q362m")
+
+[node name="RightArrow" type="TextureRect" parent="."]
+layout_mode = 2
+size_flags_horizontal = 10
+size_flags_vertical = 4
+texture = ExtResource("4_gpq38")
+
+[node name="DownArrow" type="TextureRect" parent="."]
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 8
+texture = ExtResource("6_6yil7")
+
+[node name="LeftArrow" type="TextureRect" parent="."]
+layout_mode = 2
+size_flags_horizontal = 2
+size_flags_vertical = 4
+texture = ExtResource("8_gvvb6")
+stretch_mode = 4
