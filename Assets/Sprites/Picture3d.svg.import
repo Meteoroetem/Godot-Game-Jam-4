@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dtwpxhaspra4u"
-path="res://.godot/imported/LAPTOP.svg-d92b6bce738ced483a75cf4f6c3940de.ctex"
+uid="uid://besgf8cmrolby"
+path="res://.godot/imported/Picture3d.svg-f55b14a23051d589cd9e36c7ae76cb3f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/LAPTOP.svg"
-dest_files=["res://.godot/imported/LAPTOP.svg-d92b6bce738ced483a75cf4f6c3940de.ctex"]
+source_file="res://Assets/Sprites/Picture3d.svg"
+dest_files=["res://.godot/imported/Picture3d.svg-f55b14a23051d589cd9e36c7ae76cb3f.ctex"]
 
 [params]
 
